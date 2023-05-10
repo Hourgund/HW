@@ -18,7 +18,7 @@ class Human:
     def surname(self):
         return self.__surname
 
-    @name.setter
+    @surname.setter
     def name(self, surname):
         if isinstance(surname, str):
             self.__surname = surname
