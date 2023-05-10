@@ -13,3 +13,21 @@ class Computer:
         if isinstance(brand, str):
             self.__brand = brand
 
+    @property
+    def model(self):
+        return self.__model
+
+    @model.setter
+    def brand(self, model):
+        if isinstance(model, str):
+            self.__model = model
+
+    @property
+    def price(self):
+        return self.__price
+
+    @price.setter
+    def price(self, price=1):
+        if 0 <= 1000000:
+            self.__price = price
+
