@@ -6,9 +6,3 @@ ls = ComputerCreator.create()
 
 for computer in ls:
     print(computer)
-
-adult = Manager.count_adult(ls)
-underage = Manager.count_underage(ls)
-
-print(f"Adult - {adult}")
-print(f"Underage - {underage}")

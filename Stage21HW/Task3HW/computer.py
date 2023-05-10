@@ -31,3 +31,5 @@ class Computer:
         if 0 <= 1000000:
             self.__price = price
 
+    def __str__(self):
+        return f"{self.__brand}, model: {self.__brand} and has price {self.__price}."
