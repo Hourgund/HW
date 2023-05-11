@@ -32,4 +32,4 @@ class Computer:
             self.__price = price
 
     def __str__(self):
-        return f"{self.__brand}, model: {self.__brand} and has price {self.__price}."
+        return f"{self.__brand}, model: {self.__model} and has price {self.__price}."
