@@ -20,7 +20,6 @@ class HumanCreator:
             human.name = random.choice(NAMES)
             human.name += " " + random.choice(string.ascii_uppercase) + "."
             human.surname = random.choice(SURNAMES)
-            human.surname += " " + random.choice(string.ascii_uppercase) + "."
             human.age = random.randint(MIN_AGE, MAX_AGE)
             human.is_alive = random.choice((True, False))
             humans.append(human)

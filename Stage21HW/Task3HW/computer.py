@@ -33,3 +33,7 @@ class Computer:
 
     def __str__(self):
         return f"{self.__brand}, model: {self.__model} and has price {self.__price}."
+
+    @model.setter
+    def model(self, value):
+        self._model = value

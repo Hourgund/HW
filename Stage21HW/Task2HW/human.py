@@ -44,3 +44,7 @@ class Human:
     def __str__(self):
         return f"{self.__name} {self.__surname}: age = {self.__age}. " \
                f"Is alive? - {self.is_alive}"
+
+    @surname.setter
+    def surname(self, value):
+        self._surname = value
