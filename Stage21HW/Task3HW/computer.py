@@ -18,7 +18,7 @@ class Computer:
         return self.__model
 
     @model.setter
-    def brand(self, model):
+    def model(self, model):
         if isinstance(model, str):
             self.__model = model
 
@@ -33,7 +33,3 @@ class Computer:
 
     def __str__(self):
         return f"{self.__brand}, model: {self.__model} and has price {self.__price}."
-
-    @model.setter
-    def model(self, value):
-        self._model = value
