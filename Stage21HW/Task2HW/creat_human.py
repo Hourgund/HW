@@ -18,7 +18,6 @@ class HumanCreator:
         for _ in range(size):
             human = Human()
             human.name = random.choice(NAMES)
-            human.name += " " + random.choice(string.ascii_uppercase) + "."
             human.surname = random.choice(SURNAMES)
             human.age = random.randint(MIN_AGE, MAX_AGE)
             human.is_alive = random.choice((True, False))
