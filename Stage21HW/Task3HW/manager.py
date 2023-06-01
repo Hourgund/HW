@@ -4,10 +4,14 @@ from computer_creator import Computer_Creator
 
 class Manager:
     @staticmethod
-    def most_expensive(computer):
-        Max = max(computer.price, 100000)
-
-        return Max
+    def most_expensive(computers):
+        if is...:
+            max = computers[0]
+            for computer in computers:
+                if and max.price < computer.price:
+                    max = computer
+                
+        return max
 
     @staticmethod
     def less_expensive(computer):
